@@ -117,13 +117,13 @@ def continuegame():
     if Level == 0:
         if "Creator" in options.value:
             Level = 1
-            Living.append(Character(name="Frankenstein", health=10,
+            Living.append(Character(name="Victor", health=10,
                           enthusiasm=0, education=0, ability=0))
             user_options = ['Enthusiasm', 'Education', 'Ability', 'Health']
             text = "You are Frankenstein. Please choose a stat or two to specialize in. \nCTRL select for multiple."
         elif "Random" in options.value:
             Level = 2
-            Living.append(Character(name="Frankenstein"))
+            Living.append(Character(name="Victor"))
             Living[0].Make_Random()
             text = TextFile(2)
             user_options = ['Next']
@@ -141,6 +141,54 @@ def continuegame():
         Level = 2
         text = TextFile(2)
         user_options = ['Next']
+    elif Level == 2:
+        Level = 3
+        Living.append(Character(name='Earnest'))
+        Living.append(Character(name='William'))
+        Living[1].Make_Random()
+        Living[2].Make_Random()
+        user_options = ['Vacation', 'Recover at home']
+        text = TextFile(3)
+    elif Level == 3:
+        if 'Vacation' in options.value:
+            Level = 4
+            user_options = ['Adopt the baby', 'Nah, it\'s too dirty.']
+            text = TextFile(4)
+        if 'Recover at home' in options.value:
+            Level = 6
+            user_options = ['Try to make friends', 'Stay with your family']
+            text = TextFile(6)
+    elif Level == 4:
+        if 'Adopt the baby' in options.value:
+            Level = 5
+            user_options = ['Next']
+            Living.append(Character(name='Elizabeth'))
+            text = TextFile(5)
+        if 'Nah, it\'s too dirty.' in options.value:
+            Level = 6
+            user_options = ['Try to make friends', 'Stay with your family']
+            text = 'The family blood line can\'t be spoiled anyways. The family returns and you enter school. \n'
+            text += TextFile(6)
+    elif Level == 5:
+        Level = 6
+        user_options = ['Try to make friends', 'Stay with your family']
+        text = TextFile(6)
+    elif Level == 6:
+        if 'Try to make friends' in options.value:
+            Level = 7
+            user_options = ['Next']
+            text = TextFile(7)
+        if 'Stay with your family' in options.value:
+            Level = 9
+            user_options = ['Next']
+            text = TextFile(9)
+    elif Level == 7:
+        Level = 8
+        user_options = ['Next']
+        text = TextFile(8)
+        Living.pop(1)
+    elif Level == 8:
+        Level = 9
 
     Display_Dialogue(text)
     Display_Options(user_options)
@@ -158,11 +206,11 @@ title2 = Text(app, text='Monster', grid=[9, 1, 1, 2], size=30)
 title2.font = 'Lucida Bright'
 options_text = Text(app, grid=[3, 7, 8, 1], text="Options")
 options = ListBox(app, grid=[3, 8, 2, 3], scrollbar=True, items=[
-                  'options'], width=450, height=250, multiselect=True)
+                  'options'], width=450, height=300, multiselect=True)
 options.font = "Courier"
 characters_text = Text(app, grid=[0, 7, 2, 1], text="Characters")
 characters = ListBox(app, grid=[0, 8, 2, 3],
-                     scrollbar=True, items=['characters'], width=450, height=250)
+                     scrollbar=True, items=['characters'], width=450, height=300)
 characters.font = "Courier"
 
 submit = PushButton(app, grid=[9, 8, 2, 1],
