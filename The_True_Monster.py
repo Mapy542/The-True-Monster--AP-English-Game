@@ -103,8 +103,11 @@ def TextFile(num):
             text = text.split('*')
             text = [x for x in text if x]
             for i in range(len(text)):
-                if str(num) == text[i][0]:
-                    val = text[i][2:]
+                temp = text[i].split('\n')
+                print(temp[0])
+                numdial = temp[0]
+                if str(num) == numdial:
+                    val = text[i][(len(numdial)+1):]
                     return val
 
     except FileNotFoundError:
@@ -156,6 +159,8 @@ def continuegame():
             text = TextFile(4)
         if 'Recover at home' in options.value:
             Level = 6
+            Living[0].education += 1
+            Living[0].enthusiasm += 2
             user_options = ['Try to make friends', 'Stay with your family']
             text = TextFile(6)
     elif Level == 4:
@@ -166,11 +171,15 @@ def continuegame():
             text = TextFile(5)
         if 'Nah, it\'s too dirty.' in options.value:
             Level = 6
+            Living[0].education += 1
+            Living[0].enthusiasm += 2
             user_options = ['Try to make friends', 'Stay with your family']
             text = 'The family blood line can\'t be spoiled anyways. The family returns and you enter school. \n'
             text += TextFile(6)
     elif Level == 5:
         Level = 6
+        Living[0].education += 1
+        Living[0].enthusiasm += 2
         user_options = ['Try to make friends', 'Stay with your family']
         text = TextFile(6)
     elif Level == 6:
@@ -185,10 +194,61 @@ def continuegame():
     elif Level == 7:
         Level = 8
         user_options = ['Next']
+        Living[0].enthusiasm -= 1
         text = TextFile(8)
         Living.pop(1)
     elif Level == 8:
-        Level = 9
+        Level = 10
+        text = TextFile(10)
+        user_options = ['Science Book', 'Pick another shelf']
+    elif Level == 9:
+        Level = 10
+        text = TextFile(10)
+        user_options = ['Science Book', 'Pick another shelf']
+    elif Level == 10:
+        if 'Science Book' in options.value:
+            Level = 12
+            text = TextFile(12)
+            user_options = ['Next']
+            Living[0].education += 1
+            Living[0].enthusiasm += 1
+        if 'Pick another shelf' in options.value:
+            Level = 11
+            text = TextFile(11)
+            user_options = ['Restart', 'Quit']
+    elif Level == 11:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 12:
+        Level = 13
+        text = TextFile(13)
+        user_options = ['Next']
+        Living[0].enthusiasm += 1
+        Living[0].education += 1
+    elif Level == 13:
+        Level = 14
+        text = TextFile(14)
+        user_options = ['Attend Birdgepour University',
+                        'Attend the University of Ingolstadt', 'Work for your father']
+    elif Level == 14:
+        if 'Work for your father' in options.value:
+            Level = 15
+            text = TextFile(15)
+            user_options = ['Restart', 'Quit']
+
+    elif Level == 15:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
 
     Display_Dialogue(text)
     Display_Options(user_options)

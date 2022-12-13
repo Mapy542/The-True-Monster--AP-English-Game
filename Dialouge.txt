@@ -21,7 +21,7 @@ You welcome Elizabeth into you family. She is a bundle of joy and excitement tha
 
 The family returns to Naples and you enter the school system.
 *6
-In school you find a certain excitement learning. The way mathematical equations can be exact models of the real world is amazing.
+In school you find a certain excitement learning. The way mathematical equations can be exact models of the real world is amazing. You increase your education level by 1 and your enthusiasm level by 2.
 However there are other people in the school besides you, your family, and your teachers. And they give you weird looks... You family urges you to try and socialize. "Make some friends," they say, but you don't know if thats the best idea.
 
 Do you go over and try to make a friend?
@@ -36,5 +36,36 @@ The family surrounds the hospital bed that Earnest lays in. The doctor has said 
 
 Then Earnest looks at your. He says, "I love you all." And never moves again.
 
-He has died of dissin` terry.
+Earnest has died of dissin` terry.
+
+(Enthusiasm -1)
+*9
+Those kids are weird. It's much better to stick with I'd say. What would they even bring to the table that your family doesn't have?
+
+You avoid your classmates in general, and never develop any meaningful friendships.
+*10
+While in the school library, you search for a new book. It's becoming difficult as you have read most of them. War and Peace, Paradise Lost, The King James Bible, The Holy Roman Bible; the list goes on and on.
+Arriving at the familiar shelf "Sciences and Mentology," you try to find something to read. Nothing new here.
+
+Do you pick a book about science to re-read, or move to another shelf?
+*11
+You move to the mathematics shelf, and there lies the text Accounting and Financial Security. You open to page one, and something just strikes your fancy.
+For the rest of your time at secondary school you absorb everything you can about financial mathematics, and your future is set. You go to college for accounting, and you settle down into a well paying job.
+*12
+You remove a book from the shelf; it's one you have already read but whats the difference at this point. But behind it lays another book, Alchemy Volume 3 by Paracelcus.
+You open to page one, and something about it strikes your fancy. For the rest of your secondary education, you absorb everything you can about alchemy and science.
+Your education and enthusiasm are increased by one.
+*13
+It's graduation day! You have finished secondary school, and you are ready to move on to the next step in your life.
+Your parents are more than generous, and they throw the most extravagant party for you. Cake, champagne, and a band. It's a great time.
+As the night winds down, you say farewell to the guests, and your future crosses your mind. What will you do next?
+*14
+You receive a letter in the mail, and it is from the highly esteemed college of Bridgerpour. They have offered you acceptance into their school due to your high marks in secondary school (and your parents monetary status).
+Then you receive another letter, this one from the University of Ingolstadt. They have also offered you acceptance into their school, and they have offered you a scholarship.
+A letter arrives from the University of Geneva, and three more letters arrive the next day. The letters continue.
+By the June 2nd deadline, you have received 34 letters of acceptance, but only two stand out to you. The University of Ingolstadt and the University of Bridgepour. Your father has also offered you a job as his assistant, but it seems a bit ineventful. Files all day, every day. What a chore.
+
+Which school do you choose to attend? Or do you work for your father and accept complete financial security?
+*15
+Working for your father seems like the right choice. It may be a boring job with its file after file, but it will be a stable job. You will be able to provide for your family, and the family business may even become yours someday.
 *
