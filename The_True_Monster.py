@@ -20,6 +20,7 @@ class Character:
         self.education = education
         self.ability = ability
         self.name = name
+        self.sick = False
 
         if (self.luck == 5 and random.randint(1, 2) == 1):
             self.ability += random.randint(1, 3)
@@ -104,15 +105,71 @@ def TextFile(num):
             text = [x for x in text if x]
             for i in range(len(text)):
                 temp = text[i].split('\n')
-                print(temp[0])
+                print(temp)
                 numdial = temp[0]
                 if str(num) == numdial:
                     val = text[i][(len(numdial)+1):]
+                    print(val)
                     return val
 
     except FileNotFoundError:
         print("Dialouge.txt not found. Please make sure it is in the same folder as this program.")
         exit()
+
+
+def IsAlive(Living, name):
+    for person in Living:
+        if person.name == name:
+            return True
+    return False
+
+
+def GetBadLuck(Living):
+    peeps = []
+    for person in Living:
+        if random.randint(0, 5) - person.luck > 0:
+            peeps.append(person.name)
+    return peeps
+
+
+def GetGoodLuck(Living):
+    peeps = []
+    for person in Living:
+        if random.randint(0, 5) + person.luck > 5:
+            peeps.append(person.name)
+    return peeps
+
+
+def Kill(Living, name):
+    for person in Living:
+        if person.name == name:
+            Living.remove(person)
+    return Living
+
+
+def MarkSick(Living, name):
+    for person in Living:
+        if person.name == name:
+            person.sick = True
+    return Living
+
+
+def IsSick(Living, name):
+    for person in Living:
+        if person.name == name:
+            return person.sick
+    return False
+
+
+def SicknessCheck(Living):
+    for person in Living:
+        if person.sick == True:
+            person.sick = False
+            if random.randint(0, 5) - person.luck > 0:
+                name = person.name
+                Living.remove(person)
+                return Living, name
+    return Living, None
 
 
 def continuegame():
@@ -233,14 +290,21 @@ def continuegame():
     elif Level == 13:
         Level = 14
         text = TextFile(14)
-        user_options = ['Attend Birdgepour University',
+        user_options = ['Attend Bridgepour University',
                         'Attend the University of Ingolstadt', 'Work for your father']
     elif Level == 14:
         if 'Work for your father' in options.value:
             Level = 15
             text = TextFile(15)
             user_options = ['Restart', 'Quit']
-
+        if 'Attend Bridgepour University' in options.value:
+            Level = 16
+            text = TextFile(16)
+            user_options = ['Ford River', 'Float River']
+        if 'Attend the University of Ingolstadt' in options.value:
+            Level = 25
+            text = TextFile(25)
+            user_options = ['Next']
     elif Level == 15:
         if 'Restart' in options.value:
             Level = 0
@@ -249,6 +313,136 @@ def continuegame():
             Living = []
         if 'Quit' in options.value:
             exit()
+    elif Level == 16:
+        Level = 17
+        text = TextFile(17)
+        # check for elizabeth gets sick
+        if IsAlive(Living, 'Elizabeth') and 'Elizabeth' in GetBadLuck(Living):
+            text += '\n However, over the rest of the journey, Elizabeth gets sick with the Scarlet Fever.'
+            Living = MarkSick(Living, 'Elizabeth')
+        user_options = ['Next']
+    elif Level == 17:
+        Level = 18
+        text = TextFile(18)
+        if IsSick(Living, 'Elizabeth'):
+            text += '\n The family promises to send a letter about Elizabeth\'s health when she recovers.'
+        user_options = ['Next']
+    elif Level == 18:
+        if IsSick(Living, 'Elizabeth'):
+            Living, name = SicknessCheck(Living)
+            if name != None:
+                Level = 19
+                text = TextFile(19)
+                user_options = ['Restart', 'Quit']
+            else:
+                Level = 20
+                text = TextFile(20)
+                text += '\n You receive a letter from your family... Elizabeth has recovered! Good news!'
+        else:
+            Level = 20
+            text = TextFile(20)
+        user_options = ['Next']
+    elif Level == 19:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 20:
+        Level = 21
+        text = TextFile(21)
+        user_options = ['Next']
+    elif Level == 21:
+        Level = 22
+        text = TextFile(22)
+        user_options = ['Chemistry Major', 'Physics Major']
+    elif Level == 22:
+        if 'Chemistry Major' in options.value:
+            Level = 23
+            text = TextFile(23)
+            user_options = ['Restart', 'Quit']
+        if 'Physics Major' in options.value:
+            Level = 24
+            text = TextFile(24)
+            user_options = ['Restart', 'Quit']
+    elif Level == 23:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 24:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 25:
+        if Living[0].ability < 3:
+            Level = 26
+            text = TextFile(26)
+            user_options = ['Restart', 'Quit']
+        else:
+            Level = 27
+            text = TextFile(27)
+            user_options = ['Next']
+    elif Level == 26:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 27:
+        Level = 28
+        text = TextFile(28)
+        user_options = ['Next']
+    elif Level == 28:
+        Level = 29
+        text = TextFile(29)
+        user_options = ['Next']
+    elif Level == 29:
+        Level = 30
+        text = TextFile(30)
+        user_options = ['Next']
+    elif Level == 30:
+        Level = 31
+        text = TextFile(31)
+        user_options = ['Physics Major', 'Chemistry Major']
+    elif Level == 31:
+        if 'Physics Major' in options.value:
+            Level = 32
+            text = TextFile(32)
+            user_options = ['Restart', 'Quit']
+        if 'Chemistry Major' in options.value:
+            Level = 33
+            text = TextFile(33)
+            user_options = ['Stick to Chemistry', 'Add Biology']
+    elif Level == 32:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 33:
+        if 'Stick to Chemistry' in options.value:
+            Level = 34
+            text = TextFile(34)
+            user_options = ['Restart', 'Quit']
+        if 'Add Biology' in options.value:
+            Level = 35
+            text = TextFile(35)
+            Living[0].education += 1
+            user_options = ['Next']
 
     Display_Dialogue(text)
     Display_Options(user_options)
@@ -260,7 +454,7 @@ app = App(title="The True Monster", width=1200, height=600, layout="grid")
 dialogue = ListBox(app, grid=[0, 0, 8, 6], scrollbar=True, items=[
                    'dialogue'], width=900, height=250)
 dialogue.font = "Courier"
-title = Text(app, text="The    ", grid=[9, 0, 1, 1], size=30)
+title = Text(app, text="The True", grid=[9, 0, 1, 1], size=30)
 title.font = 'Lucida Bright'
 title2 = Text(app, text='Monster', grid=[9, 1, 1, 2], size=30)
 title2.font = 'Lucida Bright'
@@ -277,8 +471,6 @@ submit = PushButton(app, grid=[9, 8, 2, 1],
                     text="Submit", command=continuegame)
 
 # Enter Character Creator?
-
-#-----------------#
 Level = 0
 Living = []
 

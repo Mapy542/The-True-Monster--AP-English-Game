@@ -60,7 +60,7 @@ It's graduation day! You have finished secondary school, and you are ready to mo
 Your parents are more than generous, and they throw the most extravagant party for you. Cake, champagne, and a band. It's a great time.
 As the night winds down, you say farewell to the guests, and your future crosses your mind. What will you do next?
 *14
-You receive a letter in the mail, and it is from the highly esteemed college of Bridgerpour. They have offered you acceptance into their school due to your high marks in secondary school (and your parents monetary status).
+You receive a letter in the mail, and it is from the highly esteemed college of Bridgepour. They have offered you acceptance into their school due to your high marks in secondary school (and your parents monetary status).
 Then you receive another letter, this one from the University of Ingolstadt. They have also offered you acceptance into their school, and they have offered you a scholarship.
 A letter arrives from the University of Geneva, and three more letters arrive the next day. The letters continue.
 By the June 2nd deadline, you have received 34 letters of acceptance, but only two stand out to you. The University of Ingolstadt and the University of Bridgepour. Your father has also offered you a job as his assistant, but it seems a bit ineventful. Files all day, every day. What a chore.
@@ -68,4 +68,79 @@ By the June 2nd deadline, you have received 34 letters of acceptance, but only t
 Which school do you choose to attend? Or do you work for your father and accept complete financial security?
 *15
 Working for your father seems like the right choice. It may be a boring job with its file after file, but it will be a stable job. You will be able to provide for your family, and the family business may even become yours someday.
+*16
+Attending Bridgepour University seems like the right choice. They were the first to reach out to you after all. 
+
+It works out wonderfully that your family can travel with you for a portion of the trip to Bridgepour. Your father bought a house in Geneva, so the whole family will be together for half of the trip!
+Everything in your old house has been packed into a wagon, and you set off.
+
+However, you quickly run into a river. Do you attempt to ford the river or, seal and float the wagon across?
+*17
+I'm only joking. This is modern Europe after all, not Africa or some place like that. You have a bridge to cross, and you cross it.
+*18
+The family finally arrives in Geneva where the rest of the family stops. You must continue on to Bridgepour, so you say your goodbyes and set off.
+*19
+After months of travel, you finally arrive at Bridgepour University. You are greeted by the Dean of the school, and he gives you a tour of the campus. It's a beautiful place, and you are excited to start your education.
+You get a letter from from your family. You open it, and see that Elizabeth has died of Scarlet Fever. You are absolutely heartbroken by the news.
+
+The best option it seems is to return home to your family to mourn, and you never return to Bridgepour.
+*20
+You arrive at Bridgepour University, and you are greeted by the Dean of the school. He gives you a tour of the campus, and you are excited to start your education.
+You need to pick a focus for your education, and the choice seems obvious. You are practically and expert in alchemy after reading all those books, but the councilor stops you, "Alchemy isn't a major, nor is it a real science. You have to pick and actual major.'
+This is blasphemy! If alchemy isn't a real science, then what was the purpose of so many alchemy books? You are furious, and you storm out of the office.
+
+In an attempt to prove the councilor wrong, you go to the library to find information on alchemy. However, there aren't any alchemy books on the shelves. You ask a professor nearby for help.
+*21
+You ask the professor, "Where are the alchemy books?" He looks at you with a confused look, "Alchemy isn't a real science. It's a pseudoscience, and it's not taught here."
+He continues, "Alchemists promised much from little. They claimed to turn lead into gold and to heal illnesses with potions from animals. Alchemy cannot deliver such feats. The natural sciences are based on fact. Science is no miracle performer, but it can do much more than anyone can know.
+If you like alchemy, then the closest thing to it is chemistry. It's a real science, and it's powerful. If you choose to be a physicist, you can takes classes taught by the best physics professor though." The professor hands you his card with a smirk.
+*22
+You head back to the councilor, and it's time to pick your major. Will you ask for a physics major, or will you ask for a chemistry major?
+*23
+You ask for a physics major, and the councilor is happy to oblige. You take classes taught by the best physics professor, and you learn everything you can about physics.
+It turns out to be a bit of a pyramid scheme, and you are left with only one job opportunity. You are offered a job as a physics professor at Bridgepour University. You accept, and you teach physics for the rest of your life.
+*24
+You ask for a chemistry major, and the councilor is happy to oblige. You take classes taught by the best chemistry professor, and you learn everything you can about chemistry.
+It turns out to be a bit of a pyramid scheme, and you are left with only one job opportunity. You are offered a job as a chemistry professor at Bridgepour University. You accept, and you teach chemistry for the rest of your life.
+*25
+Attending the University of Ingolstadt seems like the right choice. They were the second to reach out to you after all, and they were the only ones to offer a scholarship.
+
+You say farewell to your family, pack up your belongings, and set off for Ingolstadt.
+*26
+The air is getting chilly even with the parka you are wearing. You approach an iron suspension bridge over a raging river. You can see the other side, but the bridge is too far away to make out any details. You can't see any other way across, so you must cross the bridge.
+
+Halfway across the bridge, you hear a loud crack. The bridge is breaking apart! You make a split decision, and you try to jump and grab the overhead support. Your hand slips, and you fall into the river below.
+You don't get out of the water before being trapped in the rapids.
+*27
+The air is getting chilly even with the parka you are wearing. You approach an iron suspension bridge over a raging river. You can see the other side, but the bridge is too far away to make out any details. You can't see any other way across, so you must cross the bridge.
+
+Halfway across the bridge, you hear a loud crack. The bridge is breaking apart! You make a split decision, and you try to jump and grab the overhead support. Your hand grabs the support, and you pull yourself up.
+You inch your way across the bridge, and you make it to the other side.
+After you recover from that freak encounter, you catch your breath and continue to Ingolstadt.
+*28
+You arrive at the University of Ingolstadt, and you are greeted by the Dean of the school. He gives you a tour of the campus, and you are excited to start your education.
+You need to pick a focus for your education, and the choice seems obvious. You are practically and expert in alchemy after reading all those books, but the councilor stops you, "Alchemy isn't a major, nor is it a real science. You have to pick and actual major.'
+This is blasphemy! If alchemy isn't a real science, then what was the purpose of so many alchemy books? You are furious, and you storm out of the office.
+*29
+You go to the library to find information on alchemy. However, there aren't any alchemy books on the shelves. You ask a professor nearby for help.
+*30
+You ask the professor, "Where are the alchemy books?" He looks at you with a confused look, "Alchemy isn't a real science. It's a pseudoscience, and it's not taught here."
+He continues, "Alchemists promised much from little. They claimed to turn lead into gold and to heal illnesses with potions from animals. Alchemy cannot deliver such feats. The natural sciences are based on fact. Science is no miracle performer, but it can do much more than anyone can know.
+If you like alchemy, then the closest thing to it is chemistry. It's a real science, and it's powerful. If you choose to be a physicist, you can takes classes taught by the best physics professor though." The professor hands you his card with a smirk.
+*31
+You head back to the councilor, and it's time to pick your major. Will you ask for a physics major, or will you ask for a chemistry major?
+*32
+You ask for a physics major, and the councilor is happy to oblige. You take classes taught by the best physics professor, and you learn everything you can about physics.
+It turns out to be a bit of a pyramid scheme, and you are left with only one job opportunity. You are offered a job as a physics professor at Ingolstadt University. You accept, and you teach physics for the rest of your life.
+*33
+You ask for a chemistry major, and the councilor is happy to oblige. You take classes taught by the best chemistry professor, and you learn everything you can about chemistry.
+It turns out to be exactly what you were hoping for. The ability to create substances from elements is amazingly close to alchemy. However, you can't quite capture every aspect of alchemy, and you are left with a bit of a void in your life. It is quite small though, as you can't want much more with the constant stream of coursework.
+
+Then you hear the college will start offering a biology course. The new professor says that biology is a very powerful science, and you wonder if it can fill the void you find in your knowledge.
+Do you take the course even though you barely have enough time to finish your chemistry coursework?
+*34
+It's too much work to take two courses. You decide to focus on chemistry, and you finish your coursework. You graduate with a degree in chemistry, and you are offered a job as a chemist in Ingolstadt.
+Over the years, you become a very successful chemist, and you are able to retire early. Your invention, bio-polymers, is a world renowned product that spawned the plastics industry. You spend the rest of your life enjoying your retirement.
+*35
+You decide to take the biology course. After all who needs sleep anyways? Chemistry in the day and biology at night, but you enjoy it anyways. You increase your education level.
 *
