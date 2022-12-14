@@ -1,13 +1,13 @@
+import os
 try:
     from guizero import App, ListBox, Text, PushButton
 
 except ImportError:
-    print("Guizero is not installed. Please install it.")
-    exit()
+    print("installing guizero...")
+    os.system("python3 -m pip install guizero")
+    from guizero import App, ListBox, Text, PushButton
 
 import random
-import math
-import time
 from tkinter import font
 from textwrap import wrap
 
@@ -54,7 +54,7 @@ def Display_Dialogue(text):
             section = wrap(section, 120)
             for i in range(len(section)):
                 if i < len(section)-1:
-                    section[i] = section[i] + "-"
+                    section[i] = section[i] + ""
                 display_text.append(section[i])
         else:
             display_text.append(section)
@@ -443,6 +443,143 @@ def continuegame():
             text = TextFile(35)
             Living[0].education += 1
             user_options = ['Next']
+    elif Level == 34:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 35:
+        Level = 36
+        text = TextFile(36)
+        user_options = ['Single Cell Organisms', 'Human Form']
+    elif Level == 36:
+        if 'Single Cell Organisms' in options.value:
+            Level = 37
+            text = TextFile(37)
+            user_options = ['Next']
+        if 'Human Form' in options.value:
+            Level = 43
+            text = TextFile(43)
+            user_options = ['Grave Robbing', 'Hunting']
+    elif Level == 37:
+        Level = 38
+        text = TextFile(38)
+        user_options = ['Natural Substance', 'Synthetic Substance']
+    elif Level == 38:
+        if 'Natural Substance' in options.value:
+            if 'Victor' in GetGoodLuck(Living) or Living[0].ability > 4:
+                Level = 39
+                text = TextFile(39)
+                user_options = ['Restart', 'Quit']
+            else:
+                Level = 40
+                text = TextFile(40)
+                user_options = ['Restart', 'Quit']
+        if 'Synthetic Substance' in options.value:
+            if 'Victor' in GetGoodLuck(Living) or Living[0].ability > 4:
+                Level = 41
+                text = TextFile(41)
+                user_options = ['Restart', 'Quit']
+            else:
+                Level = 42
+                text = TextFile(42)
+                user_options = ['Restart', 'Quit']
+    elif Level == 39 or Level == 40 or Level == 41 or Level == 42:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 43:
+        if 'Hunting' in options.value:
+            Level = 44
+            text = TextFile(44)
+            user_options = ['Next']
+        if 'Grave Robbing' in options.value:
+            Level = 51
+            text = TextFile(51)
+            user_options = ['Next']
+    elif Level == 44:
+        Level = 45
+        text = TextFile(45)
+        user_options = ['Gun', 'Spear']
+    elif Level == 45:
+        if 'Gun' in options.value:
+            Level = 46
+            text = TextFile(46)
+            user_options = ['Next']
+        if 'Spear' in options.value:
+            Level = 47
+            text = TextFile(47)
+            user_options = ['Next']
+    elif Level == 46:
+        Level = 47
+        text = TextFile(47)
+        user_options = ['Next']
+    elif Level == 47:
+        Level = 48
+        text = TextFile(48)
+        user_options = ['Next']
+    elif Level == 48:
+        if 'Victor' in GetGoodLuck(Living) or Living[0].ability > 4:
+            Level = 50
+            text = TextFile(50)
+            user_options = ['Next']
+        else:
+            Level = 49
+            text = TextFile(49)
+            user_options = ['Quit', 'Restart']
+    elif Level == 49:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 50:
+        Level = 55
+        text = TextFile(55)
+        user_options = ['Next']
+    elif Level == 51:
+        Level = 52
+        text = TextFile(52)
+        user_options = ['Hide in the grave', 'Hide behind the mausoleum']
+    elif Level == 52:
+        if 'Hide in the grave' in options.value:
+            Level = 54
+            text = TextFile(54)
+            user_options = ['Next']
+        if 'Hide behind the mausoleum' in options.value:
+            Level = 53
+            text = TextFile(53)
+            user_options = ['Quit', 'Restart']
+    elif Level == 53:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 54:
+        Level = 55
+        text = TextFile(55)
+        user_options = ['Sneak into the engine room', 'Make a spark generator']
+    elif Level == 55:
+        if 'Sneak into the engine room' in options.value:
+            Level = 57
+            text = TextFile(57)
+            user_options = ['Next']
+        if 'Make a spark generator' in options.value:
+            Level = 56
+            text = TextFile(56)
+            user_options = ['Quit', 'Restart']
 
     Display_Dialogue(text)
     Display_Options(user_options)
