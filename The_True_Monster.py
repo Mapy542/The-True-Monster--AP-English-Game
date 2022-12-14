@@ -244,6 +244,7 @@ def continuegame():
             Level = 7
             user_options = ['Next']
             text = TextFile(7)
+            Living.append(Character(name='Henry'))
         if 'Stay with your family' in options.value:
             Level = 9
             user_options = ['Next']
@@ -580,6 +581,94 @@ def continuegame():
             Level = 56
             text = TextFile(56)
             user_options = ['Quit', 'Restart']
+    elif Level == 56:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 57:
+        if Living[0].luck < 2:
+            Level = 58
+            text = TextFile(58)
+            user_options = ['Restart', 'Quit']
+        else:
+            Level = 59
+            text = TextFile(59)
+            user_options = ['Next']
+    elif Level == 58:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 59:
+        Level = 60
+        text = TextFile(60)
+        user_options = ['Next']
+    elif Level == 60:
+        if Living[0].enthusiasm < 3:
+            Level = 61
+            text = TextFile(61)
+            user_options = ['Restart', 'Quit']
+        else:
+            Level = 62
+            text = TextFile(62)
+            user_options = ['Next']
+    elif Level == 61:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 62:
+        if 'Victor' in GetGoodLuck(Living):
+            Level = 63
+            text = TextFile(63)
+            user_options = ['Restart', 'Quit']
+        else:
+            Level = 64
+            text = TextFile(64)
+            user_options = ['Next']
+    elif Level == 63:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 64:
+        Level = 65
+        text = TextFile(65)
+        user_options = ['Next']
+    elif Level == 65:
+        if 'Henry' in IsAlive(Living):
+            Level = 67
+            text = TextFile(67)
+            user_options = ['Next']
+        else:
+            Level = 66
+            text = TextFile(66)
+            user_options = ['Restart', 'Quit']
+    elif Level == 66:
+        if 'Restart' in options.value:
+            Level = 0
+            text = 'You have restarted the game. \n Use the character creator or randomize your stats.'
+            user_options = ['Creator', 'Random']
+            Living = []
+        if 'Quit' in options.value:
+            exit()
+    elif Level == 67:
+        Level = 68
+        text = TextFile(68)
+        user_options = ['Next']
 
     Display_Dialogue(text)
     Display_Options(user_options)

@@ -55,4 +55,17 @@
 54 = hide in the grave 
 55 = you have everything ready to Go make or steal spark general
 56 = make spark and die
-57 = 
+57 = steal spark generator decide
+58 = spark gen too big
+59 = you get the spark generator
+60 = form is compleated
+61 = form doesn't work you die
+62 = form works 
+63 = you present it well
+64 = you attack it
+65 = you get sick and paranoid
+66 = you die of SicknessCheck
+67 = henry comes and saves you
+68 = times passes as the monster kills your brother.
+69 = william is killed.
+
