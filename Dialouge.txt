@@ -86,21 +86,21 @@ You get a letter from from your family. You open it, and see that Elizabeth has 
 The best option it seems is to return home to your family to mourn, and you never return to Bridgepour.
 *20
 You arrive at Bridgepour University, and you are greeted by the Dean of the school. He gives you a tour of the campus, and you are excited to start your education.
-You need to pick a focus for your education, and the choice seems obvious. You are practically and expert in alchemy after reading all those books, but the councilor stops you, "Alchemy isn't a major, nor is it a real science. You have to pick and actual major.'
+You need to pick a focus for your education, and the choice seems obvious. You are practically and expert in alchemy after reading all those books, but the counselor stops you, "Alchemy isn't a major, nor is it a real science. You have to pick and actual major.'
 This is blasphemy! If alchemy isn't a real science, then what was the purpose of so many alchemy books? You are furious, and you storm out of the office.
 
-In an attempt to prove the councilor wrong, you go to the library to find information on alchemy. However, there aren't any alchemy books on the shelves. You ask a professor nearby for help.
+In an attempt to prove the counselor wrong, you go to the library to find information on alchemy. However, there aren't any alchemy books on the shelves. You ask a professor nearby for help.
 *21
 You ask the professor, "Where are the alchemy books?" He looks at you with a confused look, "Alchemy isn't a real science. It's a pseudoscience, and it's not taught here."
 He continues, "Alchemists promised much from little. They claimed to turn lead into gold and to heal illnesses with potions from animals. Alchemy cannot deliver such feats. The natural sciences are based on fact. Science is no miracle performer, but it can do much more than anyone can know.
 If you like alchemy, then the closest thing to it is chemistry. It's a real science, and it's powerful. If you choose to be a physicist, you can takes classes taught by the best physics professor though." The professor hands you his card with a smirk.
 *22
-You head back to the councilor, and it's time to pick your major. Will you ask for a physics major, or will you ask for a chemistry major?
+You head back to the counselor, and it's time to pick your major. Will you ask for a physics major, or will you ask for a chemistry major?
 *23
-You ask for a physics major, and the councilor is happy to oblige. You take classes taught by the best physics professor, and you learn everything you can about physics.
+You ask for a physics major, and the counselor is happy to oblige. You take classes taught by the best physics professor, and you learn everything you can about physics.
 It turns out to be a bit of a pyramid scheme, and you are left with only one job opportunity. You are offered a job as a physics professor at Bridgepour University. You accept, and you teach physics for the rest of your life.
 *24
-You ask for a chemistry major, and the councilor is happy to oblige. You take classes taught by the best chemistry professor, and you learn everything you can about chemistry.
+You ask for a chemistry major, and the counselor is happy to oblige. You take classes taught by the best chemistry professor, and you learn everything you can about chemistry.
 It turns out to be a bit of a pyramid scheme, and you are left with only one job opportunity. You are offered a job as a chemistry professor at Bridgepour University. You accept, and you teach chemistry for the rest of your life.
 *25
 Attending the University of Ingolstadt seems like the right choice. They were the second to reach out to you after all, and they were the only ones to offer a scholarship.
@@ -119,7 +119,7 @@ You inch your way across the bridge, and you make it to the other side.
 After you recover from that freak encounter, you catch your breath and continue to Ingolstadt.
 *28
 You arrive at the University of Ingolstadt, and you are greeted by the Dean of the school. He gives you a tour of the campus, and you are excited to start your education.
-You need to pick a focus for your education, and the choice seems obvious. You are practically and expert in alchemy after reading all those books, but the councilor stops you, "Alchemy isn't a major, nor is it a real science. You have to pick and actual major.'
+You need to pick a focus for your education, and the choice seems obvious. You are practically and expert in alchemy after reading all those books, but the counselor stops you, "Alchemy isn't a major, nor is it a real science. You have to pick and actual major.'
 This is blasphemy! If alchemy isn't a real science, then what was the purpose of so many alchemy books? You are furious, and you storm out of the office.
 *29
 You go to the library to find information on alchemy. However, there aren't any alchemy books on the shelves. You ask a professor nearby for help.
@@ -128,12 +128,12 @@ You ask the professor, "Where are the alchemy books?" He looks at you with a con
 He continues, "Alchemists promised much from little. They claimed to turn lead into gold and to heal illnesses with potions from animals. Alchemy cannot deliver such feats. The natural sciences are based on fact. Science is no miracle performer, but it can do much more than anyone can know.
 If you like alchemy, then the closest thing to it is chemistry. It's a real science, and it's powerful. If you choose to be a physicist, you can takes classes taught by the best physics professor though." The professor hands you his card with a smirk.
 *31
-You head back to the councilor, and it's time to pick your major. Will you ask for a physics major, or will you ask for a chemistry major?
+You head back to the counselor, and it's time to pick your major. Will you ask for a physics major, or will you ask for a chemistry major?
 *32
-You ask for a physics major, and the councilor is happy to oblige. You take classes taught by the best physics professor, and you learn everything you can about physics.
+You ask for a physics major, and the counselor is happy to oblige. You take classes taught by the best physics professor, and you learn everything you can about physics.
 It turns out to be a bit of a pyramid scheme, and you are left with only one job opportunity. You are offered a job as a physics professor at Ingolstadt University. You accept, and you teach physics for the rest of your life.
 *33
-You ask for a chemistry major, and the councilor is happy to oblige. You take classes taught by the best chemistry professor, and you learn everything you can about chemistry.
+You ask for a chemistry major, and the counselor is happy to oblige. You take classes taught by the best chemistry professor, and you learn everything you can about chemistry.
 It turns out to be exactly what you were hoping for. The ability to create substances from elements is amazingly close to alchemy. However, you can't quite capture every aspect of alchemy, and you are left with a bit of a void in your life. It is quite small though, as you can't want much more with the constant stream of coursework.
 
 Then you hear the college will start offering a biology course. The new professor says that biology is a very powerful science, and you wonder if it can fill the void you find in your knowledge.
@@ -143,4 +143,103 @@ It's too much work to take two courses. You decide to focus on chemistry, and yo
 Over the years, you become a very successful chemist, and you are able to retire early. Your invention, bio-polymers, is a world renowned product that spawned the plastics industry. You spend the rest of your life enjoying your retirement.
 *35
 You decide to take the biology course. After all who needs sleep anyways? Chemistry in the day and biology at night, but you enjoy it anyways. You increase your education level.
-*
+*36
+In the final hours of one of your last biology classes, the teacher drops something of an exegesis. He shows the latest theory on the origin of life: the correct proteins entered the correct fats, and with a blast of energy life was started.
+The teacher further explains the theory, and says that it was only applicable to single cells. However, surely that single cell limitation only applies to biologists. You are an alchemist, and you can do anything you want.
+You decide to try to create life as for the class final project, but the only question is at what scale is it possible to create life? Surely a human form would not be too daunting.
+*37
+Surely to have the best possible success rate, you should start with the simplest form of life. You decide to create a single cell, and you start your research.
+Assembling a lab in your apartment, you start to gather the supplies you need. You need a source of energy, and the statics generator is the best source on campus. The chemistry lab is more than happy to lend glassware and chemicals, but many of the chemicals are not available. You need a trip to the apothecary to get the rest of the supplies.
+*38
+You head to the apothecary and ask for the supplies you need. The apothecary is happy to oblige, but he offers two variations of the same chemical. One is a natural version, and the other is a synthetic version. The synthetic version is cheaper, but it is also more dangerous. The natural version is more expensive, but it is safer.
+*39
+You decide to go with the natural version, and you pay the apothecary for the supplies. You head back to your apartment, and you start to assemble the lab.
+The process starts with a hydrolysis reaction. You need to break down the fats into their component parts. You start the reaction, and it goes well. Then comes the risky part a decomposition reaction with the natural muriatic acid from the apothecary. The reaction goes well, and you are left with the correct fats and proteins.
+The rest of the process goes well, and you achieve your goal. You have created a single cell. You present your project to the class, and you become and accredited chemist and biologist.
+*40
+You decide to go with the natural version, and you pay the apothecary for the supplies. You head back to your apartment, and you start to assemble the lab.
+The process starts with a hydrolysis reaction. You need to break down the fats into their component parts. You start the reaction, and it goes well. Then comes the risky part a decomposition reaction with the synthetic muriatic acid from the apothecary. The reaction goes well, and you are left with the correct fats and proteins.
+The rest of the process is finished, but there is no way to tell if the experiment was a success until you shock the disk.
+Zap!
+The disk explodes, and you are left with a pile of goo. You present the project to your class, but without a successful experiment, you are not accredited as a chemist or biologist. You leave the university and go back to your hometown.
+*41
+You decide to go with the synthetic version, and you pay the apothecary for the supplies. You head back to your apartment, and you start to assemble the lab.
+The process starts with a hydrolysis reaction. You need to break down the fats into their component parts. You start the reaction, and it goes well. Then comes the risky part a decomposition reaction with the synthetic muriatic acid from the apothecary. The reaction goes well, and you are left with the correct fats and proteins.
+The rest of the process goes well, and you achieve your goal. You have created a single cell. You present your project to the class, and you become and accredited chemist and biologist.
+*42
+You decide to go with the synthetic version, and you pay the apothecary for the supplies. You head back to your apartment, and you start to assemble the lab.
+The process starts with a hydrolysis reaction. You need to break down the fats into their component parts. You start the reaction, and it goes well. Then comes the risky part a decomposition reaction with the natural muriatic acid from the apothecary. The reaction is exothermic, and the dish begins to heat up. The contents reach a critical temperature and the dish explodes. You are left with a pile of goo. 
+You present the project to your class, but without a successful experiment, you are not accredited as a chemist or biologist. You leave the university and go back to your hometown.
+*43
+A human form is the better option. Go big or go home right? The class has heard about making single cells, so this would really give them a start. You start to gather the supplies you need and assemble a laboratory in your apartment.
+The chemistry lab is more than happy to lend glassware and chemicals, but many of the materials you ned are not readily available. To gather enough mass for a human form you start to pickup dead animals from the road side. However the usable mass is limited, and you fear that you will not get enough material in time.
+Do you sneak into the grave yard and attempt to harvest whole humans?
+*44
+Digging up graves is just too immoral. You'll have to find some material another way. Perhaps hunting can source the materials you need?
+*45
+It just so happens that it is deer and goose season in Ingolstadt. All you need is a gun or some other weapon. Do you try to buy a gun or steal a spear from the athletics gymnasium?
+*46
+You decide to buy a gun, and you head to the gun shop. The gun shop owner is happy to sell you a gun, but he says the gun will take 3 months to arrive. You can't wait that long, the project is due in 2 months. So you decide to try your luck with the spear.
+*47
+You decide to steal a spear from the athletics gymnasium. You head to the gymnasium, and start to rummage through the racks of equipment. You remember seeing a spear throwing activity so they should have some spears.
+The first closest has no luck just different sorts of balls. But the second is much more assorted, and in the back, spears! You grab it and immediately set out. You have a few hours before the sun sets, so what could go wrong?
+*48
+Well, now its dark. You got lost, and lost track of time. The worst thing though is that you didn't see anything all afternoon and evening.
+
+Then you hear something coming through the trees. Right at you. Fast. You see a glint of eyes in the moonlight, and it's a great bear.
+*49
+Thinking quick, you brace the spear on the ground at heart height. The bear charges into you are the spear, and you are thrown to the ground.
+The spear broke off and did not kill the bear. You don't make it out of the woods.
+*50
+Thinking quick, you brace the spear on the ground at heart height. The bear charges into you are the spear, and you are thrown to the ground.
+The spear did its job and the bear collapses. What luck! The bear has more than enough mass, but how do you get it to your laboratory? Rope and a very long night.
+*51
+Your running out of time, and as awful as it is, the graves have enough mass to make sure your project is done by the deadline.
+The closest one is Ingolstadt Central Cemetary. You head there in the dead of night and need to find a place to start. The newest grave seems like an obvious choice. The dirt is fresh so digging won't be noticeable. The fresh body will be easy to harvest. You start to dig.
+*52
+The hole is getting bigger. Three feet wide and two feet deep, you have a long time to go.
+Then you see a light in the distance. It's a lantern, and it's coming closer. You have to hide from the graveyard attendant.
+Do you hide in the grave you are digging or behind the mausoleum?
+*53
+You have to hide behind the mausoleum. You can't risk being seen in the grave you are digging. The attendant reaches the grave and inspects it. He seems suspicious, and, to your horror, he starts to look around. He checks behind nearby graves, and is moving closer to you.
+In a panic you start to sprint out of the graveyard. You almost make it out, but a tree root catches your foot. You are knocked unconscious.
+
+You wake up in jail for trespassing. You are released after a few days, but you are not allowed to return to the university. You go back to your hometown.
+*54
+The light is too close, and there isn't time to run. You have to hide in the shallow grave you've made. You quickly cover yourself with dirt and wait.
+The light reaches the grave and the attendant stop to look. He sees the dirt and thinks it is a fresh grave. He moves on.
+
+You get back to digging and hurry to finish before dawn. You grab the body and head back to your laboratory.
+*55
+You have the materials and the means to make the form, but you still need and energy source. You heard rumors that the engine room has a spark generator, but as a chemist you don't have access to the engine room. Do you sneak in and steal the spark generator or do you try to make your own?
+*56
+You decide to make your own spark generator. You head to the scrap yard for copper and iron, and start to tinker.
+The project isn't going well though. You can't get the spark generator efficient enough, so it has to rotate faster.
+In your final test, you spin the generator to the point of dynamic plastic deformation. The generator explodes, and you are hit by the shrapnel.
+The Ingolstadt hospital is not equipped to handle your injuries, and you die.
+*57
+You decide to steal the spark generator. The engines room is locked, but you are able to bust the lock with a crowbar. You enter the room and find the spark generator.
+*58
+Its just your luck, the spark generator is practically the size of the room. There is no way you can get it back.
+*59
+The spark generator is on the table, but it is very heavy. You have to wheel it out on a dolly.
+*60
+Finally after all of your labor, its time to start assembling the form. It is very tiresome work, and it really doesn't help that the only time for you to work on it is in the late hours of the night.
+Building each limb and organ from the tissue up is a very time consuming tasks, but the thought of success is so invigorating. You work through many nights without sleep.
+After a month and a half of non-stop and exhausting work, you finally finish the form. You are so excited to see it move, and all you need is the spark to bring it to life.
+*61
+Tonight is the night. You have the spark generator ready, and you are ready to bring your creation to life. You start the generator and wait for the spark.
+Zap! The spark jumps into the form, and the limbs seize. The muscles relax, and do not move. You try again, and again, but the form does not move.
+You spend the night trying to get the form to move, but it is no use. You have failed.
+
+Your classmates notice you stop coming to class, and in fact they realize that they haven't seen you in days. They come to your apartment, and break in the door to investigate.
+They find you hanging alongside your attempted creation.
+*62
+Tonight is the night. You have the spark generator ready, and you are ready to bring your creation to life. You start the generator and wait for the spark.
+Zap! The spark jumps into the form, and the limbs seize. The muscles relax, and then move. The form is alive!
+The yellow eyes open, and the form stands up. It is a beautiful sight, and you are so happy. You have succeeded!
+*63
+Thinking ahead, the body can move around a bit, but you have it restrained. You study it, and present your final project for class. The professor is astounded by the creature you bring in to the classroom.
+You become and accredited biologist, but you never dabble in making another living creature. After your presentation, you felt so disgusted by your creation that you destroy it.
+*64
+
