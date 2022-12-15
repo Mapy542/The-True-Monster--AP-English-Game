@@ -639,7 +639,7 @@ def continuegame():  # advance game based on parameters
         if 'Quit' in options.value:
             exit()
     elif Level == 62:
-        if 'Victor' in GetGoodLuck(Living):
+        if 'Victor' in GetGoodLuck(Living) and Living[0].enthusiasm > 7:
             Level = 63
             text = TextFile(63)
             user_options = ['Restart', 'Quit']
