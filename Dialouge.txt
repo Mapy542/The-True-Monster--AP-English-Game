@@ -4,9 +4,9 @@ Your parents have named you Victor, Victor Frankenstein, and they know you will 
 Your parents are very close, and they love spending every second with you.
 *3
 You are 3 years old.
-They don't detract form your parents love of you, but I suppose I should mention you do in fact have brothers.
+They don't detract from your parents love of you, but I suppose I should mention, you do, in fact, have brothers.
 Ernest is 1 year old, and William was born today.
-The larger family is the most dear thing to you, as there is more love to share, but it has been a taxing three years on your mother.
+The larger family is the dearest thing to you, as there is more love to share, but it has been a taxing three years on your mother.
 
 She proposes the family take a vacation to Lake Como.
 *4
@@ -17,42 +17,42 @@ Your mother enjoys perusing the shopping district, and walking with some of her 
 
 However, on her walk, she finds the most beautiful baby girl that has been abandoned after her mother died. Does your family adopt her and bring her back?
 *5
-You welcome Elizabeth into you family. She is a bundle of joy and excitement that completes the family. She is very smart, and you both quickly become best friends.
+You welcome Elizabeth into your family. She is a bundle of joy and excitement that completes the family. She is very smart, and you both quickly become best friends.
 
 The family returns to Naples and you enter the school system.
 *6
-In school you find a certain excitement learning. The way mathematical equations can be exact models of the real world is amazing. You increase your education level by 1 and your enthusiasm level by 2.
-However there are other people in the school besides you, your family, and your teachers. And they give you weird looks... You family urges you to try and socialize. "Make some friends," they say, but you don't know if thats the best idea.
+In school, you find a certain excitement in learning. The way mathematical equations can be exact models of the real world is amazing. You increase your education level by 1 and your enthusiasm level by 2.
+However there are other people in the school besides you, your family, and your teachers. And they give you weird looks... Your family urges you to try and socialize. "Make some friends," they say, but you don't know if that's the best idea.
 
 Do you go over and try to make a friend?
 *7
-You go find and boy in your class and make a conversation. You introduce yourself and he does the same, "I'm Henry Clerval."
+You go find a boy in your class and make a conversation. You introduce yourself and he does the same, "I'm Henry Clerval."
 Success! You got yourself your first friend.
 
 However, your brother Earnest wandered off while you were gone and tried to make his own friends. It didn't go so well to say the least.
 Earnest was made fun of and got very angry. He shouted at a kid named Terry Rorchact to the point where Terry punched back just so Earnest would shut up. Now Earnest is in critical condition.
 *8
-The family surrounds the hospital bed that Earnest lays in. The doctor has said the punch to his head caused too much damage, and that it is unlikely Earnest will survive.
+The family surrounds the hospital bed that Earnest lays in. The doctor has said the trauma to his head caused too much damage, and that it is unlikely Earnest will survive.
 
-Then Earnest looks at your. He says, "I love you all." And never moves again.
+Then Earnest looks at you. He says, "I love you all." And never moves again.
 
 Earnest has died of dissin` terry.
 
 (Enthusiasm -1)
 *9
-Those kids are weird. It's much better to stick with I'd say. What would they even bring to the table that your family doesn't have?
+Those kids are weird. It's much better to stick with your family, I'd say. What would they even bring to the table that your family doesn't have?
 
 You avoid your classmates in general, and never develop any meaningful friendships.
 *10
 While in the school library, you search for a new book. It's becoming difficult as you have read most of them. War and Peace, Paradise Lost, The King James Bible, The Holy Roman Bible; the list goes on and on.
-Arriving at the familiar shelf "Sciences and Mentology," you try to find something to read. Nothing new here.
+Arriving at the familiar shelf "Sciences and Technology," you try to find something to read. Nothing new here.
 
 Do you pick a book about science to re-read, or move to another shelf?
 *11
 You move to the mathematics shelf, and there lies the text Accounting and Financial Security. You open to page one, and something just strikes your fancy.
 For the rest of your time at secondary school you absorb everything you can about financial mathematics, and your future is set. You go to college for accounting, and you settle down into a well paying job.
 *12
-You remove a book from the shelf; it's one you have already read but whats the difference at this point. But behind it lays another book, Alchemy Volume 3 by Paracelcus.
+You remove a book from the shelf; it's one you have already read but what's the difference at this point. But behind it lays another book, Alchemy Volume 3 by Paracelcus.
 You open to page one, and something about it strikes your fancy. For the rest of your secondary education, you absorb everything you can about alchemy and science.
 Your education and enthusiasm are increased by one.
 *13
@@ -119,7 +119,7 @@ You inch your way across the bridge, and you make it to the other side.
 After you recover from that freak encounter, you catch your breath and continue to Ingolstadt.
 *28
 You arrive at the University of Ingolstadt, and you are greeted by the Dean of the school. He gives you a tour of the campus, and you are excited to start your education.
-You need to pick a focus for your education, and the choice seems obvious. You are practically and expert in alchemy after reading all those books, but the counselor stops you, "Alchemy isn't a major, nor is it a real science. You have to pick and actual major.'
+You need to pick a focus for your education, and the choice seems obvious. You are practically and expert in alchemy after reading all those books, but the counselor stops you, "Alchemy isn't a major, nor is it a real science. You have to pick an actual major.'
 This is blasphemy! If alchemy isn't a real science, then what was the purpose of so many alchemy books? You are furious, and you storm out of the office.
 *29
 You go to the library to find information on alchemy. However, there aren't any alchemy books on the shelves. You ask a professor nearby for help.
@@ -305,7 +305,7 @@ You decide to finish what you came here to do. You tell the monster that you are
 The monster dodges your attack, and you fall to the ground. The monster then grabs you by the throat and begins to drag you. You are launched out of the cave and begin to tumble. You end up on the edge of an icy crevice, and the snow moves. You fall in and are trapped.
 *81
 You decide to finish what you came here to do. You tell the monster that you are sorry, but that with your remaining conscious you cannot make another creature. You take out your hunting knife and lunge at the monster.
-For some indescribable reason, the monster doesn't dodge your attack. You stab the monster in the chest, and it falls to the ground. The monster looks utterly betrayed, and slumps against the cave wall. You wait untill it completely dies, and then start your journey back down the mountain.
+For some indescribable reason, the monster doesn't dodge your attack. You stab the monster in the chest, and it falls to the ground. The monster looks utterly betrayed, and slumps against the cave wall. You wait until it completely dies, and then start your journey back down the mountain.
 *82
 You agree to the monster's request. It is quite reasonable that he find joy in a world that has been so cruel to him. You tell him that you will make him a companion, but that it will take some time.
 He agrees, and you return to Geneva.
@@ -313,8 +313,8 @@ He agrees, and you return to Geneva.
 On your way back to Geneva, you start to have second thoughts. If one monster has almost completely ruined your life, the what will two do?
 Do you double down, and finish your task in the hope that the monsters will leave you alone, or do you avoid the monster and its task in hope that it will leave you alone?
 *84
-You decide that you just cannot make another monster. You are too afraid of what it will do. You return to Geneva, and try to forget about the monster. However that doesn't last long.
-He shows up to you room during the night, and in a fit of rage decimates the house and your family.
+You decide that you just cannot make another monster. You are too afraid of what it will do. You return to Geneva, and try to forget about the monster. However, that doesn't last long.
+He shows up to your room during the night, and in a fit of rage decimates the house and your family.
 *85
 You decide that making a companion for the monster is the best course of action. You move away from your family for their safety, and begin to work on the monster's companion. You end up on an island remarkably close to Bridgepour university.
 You repeat your earlier actions and start to build the second form.
@@ -339,7 +339,7 @@ You decide to stop your work. What will the second monster do to you and your fa
 You return home, and the monster is true to his word. He terrorizes your family, and you are forced to flee. You live the rest of your life on your own in the hope your family is safe.
 *93
 In his departure, the monster kills a stranger near your house. The local town detains you as a result, but the conditions of the jail cause you to become sick.
-Thankfully some intervention by your father allows you to leave and slowly make you way home.
+Thankfully some intervention by your father allows you to leave and slowly make your way home.
 Now that you are home, you recover and then you can finally be with Elizabeth.
 Up until the wedding is a very happy time, but you can't stop thinking about the monster. He never shows.
 *94
@@ -358,10 +358,10 @@ The ice starts to move south, and you are dragged along with it.
 Over the course of a week, you survive off the little remaining food, but the ice is melting.
 The dogs are starting to stave, but there may be hope. It almost looks like a ship is on the horizon.
 *97
-It is a ship! Salvation is so close, but you need to get to it. The sled can be fasioned into a oar, and you paddle to the ship.
+It is a ship! Salvation is so close, but you need to get to it. The sled can be fashioned into a oar, and you paddle to the ship.
 The paddling takes two days, and the effort has wreaked havoc on your body. You are exhausted, and you are starving.
 
-The men on the ship pull you onboard, and the give you a room to recover. You are so weak that you can barely move.
+The men on the ship pull you onboard, and they give you a room to recover. You are so weak that you can barely move.
 The captain of the ship takes interest in your story, and you tell him everything. The summary of your life is so incredibly taxing that you never recover.
 You die on the ship, and the captain buries you at sea.
 *
